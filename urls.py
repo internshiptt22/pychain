@@ -3,6 +3,7 @@ from django.urls import path
 from django.conf.urls import url
 from blockchain import views
 from blockchain.views import *
+import networkx as nx 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -13,3 +14,4 @@ urlpatterns = [
     url('^connect_node$', views.connect_node, name="connect_node"), #New
     url('^replace_chain$', views.replace_chain, name="replace_chain"), #New
 ]
+print('Changed ')
