@@ -2,9 +2,9 @@ import networkx as nx
 
 
 print('Imported a network module')
-a = 10 
-b = 5 
-sum = a + b
-print(sum)
+value1 = 20;
+value2 = 30;
+sum = value1 + value2;
+printf(sum);
 
 # Register your models here.
