@@ -30,7 +30,7 @@ class Blockchain:
 
     def get_last_block(self):
         return self.chain[-1]
-
+#getlastblockfunction
     def proof_of_work(self, previous_nonce):
         new_nonce = 1
         check_nonce = False
